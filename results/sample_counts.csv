@@ -1,0 +1,15 @@
+step,rows,note
+"USPTO U.S. Patent Activity table (h_counts.htm), years",230,1790-2020
+"USPTO Patent Statistics Chart (us_stat.htm), years",58,1963-2020
+PatentsView g_patent rows loaded,9075421,
+  kept utility patents,8206140,"(design, plant, reissue, defensive publications dropped)"
+  kept after dropping withdrawn patents,8187839,
+  utility grants 2015-2024 kept for the assignee table,3220883,
+KPSS patents loaded (patents of US-listed firms),3831908,
+  kept with a value estimate,3831908,
+patents_by_year.csv rows written,235,
+"max gap between PatentsView and USPTO utility grant counts, overlap years",45,largest relative gap 0.0010
+PatentsView assignee rows loaded,8385078,
+"  2015-2024 utility grants with no organizational assignee (individuals, unassigned)",186568,
+  of which matched to a KPSS value (owner listed in the US),1106455,
+assignees_2015_2024.csv rows written (top 400 by patent count),400,
